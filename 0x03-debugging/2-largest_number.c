@@ -2,9 +2,9 @@
 
 /**
  * largest_number - returns the largest of three numbers
- * @a:first number
- * @b:second number
- * @c:third number
+ * @a: first integer
+ * @b: second integer
+ * @c: third integeri
  * Return: largest number
  */
 
@@ -16,7 +16,7 @@ int largest_number(int a, int b, int c)
 	{
 		largest = a;
 	}
-	else if (b > a && a > c)
+	else if (b > a && b > c)
 	{
 		largest = b;
 	}
